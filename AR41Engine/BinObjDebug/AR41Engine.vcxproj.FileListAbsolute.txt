@@ -5,3 +5,10 @@ C:\Users\argo\Desktop\DX112D\AR41Engine\Bin\UI.cso
 C:\Users\argo\Desktop\DX112D\AR41Engine\BinObjDebug\AR41Engine.vcxproj.MdMergeInputs.cache
 C:\Users\argo\Desktop\DX112D\AR41Engine\BinObjDebug\AR41Engine.vcxproj.cppwinrt_plat.cache
 C:\Users\argo\Desktop\DX112D\AR41Engine\BinObjDebug\AR41Engine.vcxproj.cppwinrt_comp.cache
+D:\c++\Directx\DX112D\AR41Engine\Bin\Collider.cso
+D:\c++\Directx\DX112D\AR41Engine\Bin\Sprite.cso
+D:\c++\Directx\DX112D\AR41Engine\Bin\TileMap.cso
+D:\c++\Directx\DX112D\AR41Engine\Bin\UI.cso
+D:\c++\Directx\DX112D\AR41Engine\BinObjDebug\AR41Engine.vcxproj.MdMergeInputs.cache
+D:\c++\Directx\DX112D\AR41Engine\BinObjDebug\AR41Engine.vcxproj.cppwinrt_plat.cache
+D:\c++\Directx\DX112D\AR41Engine\BinObjDebug\AR41Engine.vcxproj.cppwinrt_comp.cache

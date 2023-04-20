@@ -1048,5 +1048,6 @@
     <None Include="fmod.cs">
       <Filter>02. Resource\06. Sound\01. FMOD</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

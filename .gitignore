@@ -1,0 +1,51 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.lib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+*.pdb
+*.tlog
+*.idb
+*.ini
+*.log
+*.ilk
+
+.svn/
+.vs/
+.AR41DX/AR41Editor/BinObjDebug/
+.AR41DX/AR41Engine/BinObjDebug/
+.AR41DX/Client3D/BinObjDebug/
+.AR41DX/AR41Editor/BinObj/
+.AR41DX/AR41Engine/BinObj/
+.AR41DX/Client3D/BinObj/
+*.recipe
+/AR41DX/AR41Editor/BinObjDebug
+/AR41DX/AR41Engine/BinObjDebug
+/AR41DX/Client3D/BinObj_Debug

@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Manager">
+      <UniqueIdentifier>{9f831da6-322f-43fe-aae2-a4436617fdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{6a216dc3-cb2d-4cae-b2c4-6fea7410c980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Window">
+      <UniqueIdentifier>{56664438-29b5-43ff-8671-5bc39ae1c645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject">
+      <UniqueIdentifier>{bf01c7b4-a6c3-4490-8775-884ed6ae7bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI">
+      <UniqueIdentifier>{759f19aa-dd65-4965-945f-7a6bb608ae0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Setting">
+      <UniqueIdentifier>{40470114-7f4f-46aa-be29-bb6fed5cb270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Window\01. DetailWindow">
+      <UniqueIdentifier>{9a3c58bb-37d1-4cf6-8bca-c307ed8d8bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Window\02. ColliderWindow">
+      <UniqueIdentifier>{f33dde48-e164-49ab-9b9b-828d5c069fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Window\03. UIWindow">
+      <UniqueIdentifier>{f38f2d75-eb93-4618-ac87-4a30d537a19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Skill">
+      <UniqueIdentifier>{5fdb8519-1ad8-48af-8ed7-2797a16e1107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AR41Editor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorManager.h">
+      <Filter>01. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\EditorDefaultScene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\TestWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Monster.h">
+      <Filter>04. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player2D.h">
+      <Filter>04. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Bullet.h">
+      <Filter>04. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ObjectWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ClassWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ComponentWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\TransformWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\SceneWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ImageWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\AnimationWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BackGround.h">
+      <Filter>04. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\DefaultSetting.h">
+      <Filter>06. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\EngineShareSetting.h">
+      <Filter>06. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ResourceWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MainMenuUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\CameraWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ComponentWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\CameraWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\PrimitiveWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\SceneComponentWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\TargetArmWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\SpriteComponentWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\Animation2DWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Boss.h">
+      <Filter>04. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ColiderWindow.h">
+      <Filter>03. Window\02. ColliderWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ColliderPixelWindow.h">
+      <Filter>03. Window\02. ColliderWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UIButtonWindow.h">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UIImageWindow.h">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UINumberWindow.h">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UIProgressBarWindow.h">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UITextWindow.h">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LoadingSceneInfo.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\LoadingUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UpperUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PartyUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\EditPartyUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\TileMapWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StageUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\Skill.h">
+      <Filter>07. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\SkillManager.h">
+      <Filter>07. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BossUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TitleUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Marker.h">
+      <Filter>04. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GameClearUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\StatusWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorManager.cpp">
+      <Filter>01. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorDefaultScene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\TestWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Monster.cpp">
+      <Filter>04. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player2D.cpp">
+      <Filter>04. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Bullet.cpp">
+      <Filter>04. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ObjectWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ClassWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ComponentWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\TransformWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\SceneWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ImageWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\AnimationWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BackGround.cpp">
+      <Filter>04. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\DefaultSetting.cpp">
+      <Filter>06. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\EngineShareSetting.cpp">
+      <Filter>06. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ResourceWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MainMenuUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\CameraWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ComponentWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\CameraWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\PrimitiveWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\SceneComponentWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\TargetArmWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\SpriteComponentWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\Animation2DWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Boss.cpp">
+      <Filter>04. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ColiderWindow.cpp">
+      <Filter>03. Window\02. ColliderWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ColliderPixelWindow.cpp">
+      <Filter>03. Window\02. ColliderWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UIButtonWindow.cpp">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UIImageWindow.cpp">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UINumberWindow.cpp">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UIProgressBarWindow.cpp">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UITextWindow.cpp">
+      <Filter>03. Window\03. UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LoadingSceneInfo.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\LoadingUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UpperUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PartyUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\EditPartyUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\TileMapWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StageUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill\SkillManager.cpp">
+      <Filter>07. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill\Skill.cpp">
+      <Filter>07. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\BossUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TitleUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Marker.cpp">
+      <Filter>04. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GameClearUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\StatusWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\EditorCopy.bat" />
+  </ItemGroup>
+</Project>

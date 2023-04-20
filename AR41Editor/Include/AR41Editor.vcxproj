@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d2dbb63d-fab1-41a7-b28c-78979288f56b}</ProjectGuid>
+    <RootNamespace>AR41Editor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObjDebug/</IntDir>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObjDebug/</IntDir>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>call $(SolutionDir)EditorCopy.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>call $(SolutionDir)EditorCopy.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>call $(SolutionDir)EditorCopy.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>call $(SolutionDir)EditorCopy.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EditorManager.cpp" />
+    <ClCompile Include="GameObject\BackGround.cpp" />
+    <ClCompile Include="GameObject\Boss.cpp" />
+    <ClCompile Include="GameObject\Bullet.cpp" />
+    <ClCompile Include="GameObject\Marker.cpp" />
+    <ClCompile Include="GameObject\Monster.cpp" />
+    <ClCompile Include="GameObject\Player2D.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene\EditorDefaultScene.cpp" />
+    <ClCompile Include="Scene\LoadingSceneInfo.cpp" />
+    <ClCompile Include="Setting\DefaultSetting.cpp" />
+    <ClCompile Include="Setting\EngineShareSetting.cpp" />
+    <ClCompile Include="Skill\Skill.cpp" />
+    <ClCompile Include="Skill\SkillManager.cpp" />
+    <ClCompile Include="UI\BossUI.cpp" />
+    <ClCompile Include="UI\EditPartyUI.cpp" />
+    <ClCompile Include="UI\GameClearUI.cpp" />
+    <ClCompile Include="UI\LoadingUI.cpp" />
+    <ClCompile Include="UI\MainMenuUI.cpp" />
+    <ClCompile Include="UI\PartyUI.cpp" />
+    <ClCompile Include="UI\StageUI.cpp" />
+    <ClCompile Include="UI\TitleUI.cpp" />
+    <ClCompile Include="UI\UpperUI.cpp" />
+    <ClCompile Include="Window\Animation2DWindow.cpp" />
+    <ClCompile Include="Window\AnimationWindow.cpp" />
+    <ClCompile Include="Window\CameraWindow.cpp" />
+    <ClCompile Include="Window\ClassWindow.cpp" />
+    <ClCompile Include="Window\ColiderWindow.cpp" />
+    <ClCompile Include="Window\ColliderPixelWindow.cpp" />
+    <ClCompile Include="Window\ComponentWindow.cpp" />
+    <ClCompile Include="Window\DetailWindow.cpp" />
+    <ClCompile Include="Window\DetailWindow\CameraWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\ComponentWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\PrimitiveWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\SceneComponentWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\SpriteComponentWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\TargetArmWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\TileMapWidgetList.cpp" />
+    <ClCompile Include="Window\ImageWindow.cpp" />
+    <ClCompile Include="Window\ObjectWindow.cpp" />
+    <ClCompile Include="Window\ResourceWindow.cpp" />
+    <ClCompile Include="Window\SceneWindow.cpp" />
+    <ClCompile Include="Window\StatusWindow.cpp" />
+    <ClCompile Include="Window\TestWindow.cpp" />
+    <ClCompile Include="Window\TransformWindow.cpp" />
+    <ClCompile Include="Window\UIButtonWindow.cpp" />
+    <ClCompile Include="Window\UIImageWindow.cpp" />
+    <ClCompile Include="Window\UINumberWindow.cpp" />
+    <ClCompile Include="Window\UIProgressBarWindow.cpp" />
+    <ClCompile Include="Window\UITextWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="EditorManager.h" />
+    <ClInclude Include="GameObject\BackGround.h" />
+    <ClInclude Include="GameObject\Boss.h" />
+    <ClInclude Include="GameObject\Bullet.h" />
+    <ClInclude Include="GameObject\Marker.h" />
+    <ClInclude Include="GameObject\Monster.h" />
+    <ClInclude Include="GameObject\Player2D.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene\EditorDefaultScene.h" />
+    <ClInclude Include="Scene\LoadingSceneInfo.h" />
+    <ClInclude Include="Setting\DefaultSetting.h" />
+    <ClInclude Include="Setting\EngineShareSetting.h" />
+    <ClInclude Include="Skill\Skill.h" />
+    <ClInclude Include="Skill\SkillManager.h" />
+    <ClInclude Include="UI\BossUI.h" />
+    <ClInclude Include="UI\EditPartyUI.h" />
+    <ClInclude Include="UI\GameClearUI.h" />
+    <ClInclude Include="UI\LoadingUI.h" />
+    <ClInclude Include="UI\MainMenuUI.h" />
+    <ClInclude Include="UI\PartyUI.h" />
+    <ClInclude Include="UI\StageUI.h" />
+    <ClInclude Include="UI\TitleUI.h" />
+    <ClInclude Include="UI\UpperUI.h" />
+    <ClInclude Include="Window\Animation2DWindow.h" />
+    <ClInclude Include="Window\AnimationWindow.h" />
+    <ClInclude Include="Window\CameraWindow.h" />
+    <ClInclude Include="Window\ClassWindow.h" />
+    <ClInclude Include="Window\ColiderWindow.h" />
+    <ClInclude Include="Window\ColliderPixelWindow.h" />
+    <ClInclude Include="Window\ComponentWindow.h" />
+    <ClInclude Include="Window\DetailWindow.h" />
+    <ClInclude Include="Window\DetailWindow\CameraWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\ComponentWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\PrimitiveWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\SceneComponentWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\SpriteComponentWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\TargetArmWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\TileMapWidgetList.h" />
+    <ClInclude Include="Window\ImageWindow.h" />
+    <ClInclude Include="Window\ObjectWindow.h" />
+    <ClInclude Include="Window\ResourceWindow.h" />
+    <ClInclude Include="Window\SceneWindow.h" />
+    <ClInclude Include="Window\StatusWindow.h" />
+    <ClInclude Include="Window\TestWindow.h" />
+    <ClInclude Include="Window\TransformWindow.h" />
+    <ClInclude Include="Window\UIButtonWindow.h" />
+    <ClInclude Include="Window\UIImageWindow.h" />
+    <ClInclude Include="Window\UINumberWindow.h" />
+    <ClInclude Include="Window\UIProgressBarWindow.h" />
+    <ClInclude Include="Window\UITextWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AR41Editor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\EditorCopy.bat" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

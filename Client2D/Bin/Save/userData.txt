@@ -1,0 +1,62 @@
+[money]
+0
+[cash]
+6000
+[mana]
+0
+[score]
+3654030
+[high score]
+529321824
+[time]
+0.000000
+[fast time]
+1.003344
+[party index]
+0
+[party name]
+alk
+stella_2anv
+student_gunsmith
+zeta
+prince_zero
+white_tiger
+prince_zero
+zeta
+student_gunsmith
+alk
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+[hold character count]
+6
+[hold character names]
+alk
+zeta
+white_tiger
+stella_2anv
+student_gunsmith
+prince_zero

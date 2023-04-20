@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. ClientManager">
+      <UniqueIdentifier>{f01344f3-6736-4c3c-8df4-a946a8c2f6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{c91e2f15-ac8d-4b2a-a8c7-da0c88edfb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{04dcfbae-969d-4a04-a0b8-5c57999e4c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Setting">
+      <UniqueIdentifier>{a36c3a5d-5775-4c34-a263-c37acadbb596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI">
+      <UniqueIdentifier>{49d34921-d5d7-48c0-b5f7-49e26801b311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Skill">
+      <UniqueIdentifier>{e780c67e-b528-43ff-8ac6-1649e6e0cfc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>01. ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MainSceneInfo.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player2D.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Bullet.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Monster.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BackGround.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\DefaultSetting.cpp">
+      <Filter>04. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\EngineShareSetting.cpp">
+      <Filter>04. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Boss.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\LoadingUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MainMenuUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\EditPartyUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PartyUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StageUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UpperUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill\Skill.cpp">
+      <Filter>06. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill\SkillManager.cpp">
+      <Filter>06. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LoadingSceneInfo.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\BossUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TitleUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GameClearUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Marker.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client2D.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientManager.h">
+      <Filter>01. ClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MainSceneInfo.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player2D.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Bullet.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Monster.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BackGround.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\DefaultSetting.h">
+      <Filter>04. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\EngineShareSetting.h">
+      <Filter>04. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Boss.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\LoadingUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MainMenuUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\EditPartyUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PartyUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StageUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UpperUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\Skill.h">
+      <Filter>06. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\SkillManager.h">
+      <Filter>06. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LoadingSceneInfo.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BossUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TitleUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GameClearUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Marker.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="WP.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

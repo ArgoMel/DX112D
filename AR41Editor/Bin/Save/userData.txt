@@ -5,11 +5,11 @@
 [mana]
 0
 [score]
-3658933
+29375376
 [high score]
 529321824
 [time]
-4.008085
+118.112045
 [fast time]
 1.003344
 [party index]

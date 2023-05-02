@@ -299,36 +299,36 @@ void CClassWindow::LoadComponentName()
 	{
 		if (path[i] == '/' || path[i] == '\\')
 		{
-			memset(&path[i + 1], 0, sizeof(TCHAR) * (length - i - 1));
+			memset(&path[i - 10], 0, sizeof(TCHAR) * (length - i + 10));
 			break;
 		}
 	}
 	char	directory[MAX_PATH] = {};
-	strcpy_s(directory, path);
-	strcat_s(directory, "Include/Component/");
-	for (const auto& file : std::filesystem::directory_iterator(directory))
-	{
-		char	name[64] = {};
-		char	fullPath[MAX_PATH] = {};
-		char	ext[_MAX_EXT] = {};
-		strcpy_s(fullPath, file.path().generic_string().c_str());
-		_splitpath_s(fullPath, nullptr, 0, nullptr, 0, name, 64, ext, _MAX_EXT);
-		if (strcmp(ext, ".cpp") == 0)
-		{
-			continue;
-		}
-		m_ComponentList->AddItem(name);
-	}
-	length = (int)strlen(path) - 3;
-	for (size_t i = length; i > 0; --i)
-	{
-		if (path[i] == '/' || path[i] == '\\')
-		{
-			memset(&path[i + 1], 0, sizeof(TCHAR) * (length - i - 1));
-			break;
-		}
-	}
-	memset(directory, 0, MAX_PATH);
+	//strcpy_s(directory, path);
+	//strcat_s(directory, "Include/Component/");
+	//for (const auto& file : std::filesystem::directory_iterator(directory))
+	//{
+	//	char	name[64] = {};
+	//	char	fullPath[MAX_PATH] = {};
+	//	char	ext[_MAX_EXT] = {};
+	//	strcpy_s(fullPath, file.path().generic_string().c_str());
+	//	_splitpath_s(fullPath, nullptr, 0, nullptr, 0, name, 64, ext, _MAX_EXT);
+	//	if (strcmp(ext, ".cpp") == 0)
+	//	{
+	//		continue;
+	//	}
+	//	m_ComponentList->AddItem(name);
+	//}
+	//length = (int)strlen(path) - 3;
+	//for (size_t i = length; i > 0; --i)
+	//{
+	//	if (path[i] == '/' || path[i] == '\\')
+	//	{
+	//		memset(&path[i + 1], 0, sizeof(TCHAR) * (length - i - 1));
+	//		break;
+	//	}
+	//}
+	//memset(directory, 0, MAX_PATH);
 	strcpy_s(directory, path);
 	strcat_s(directory, "Engine/Include/Component/");
 	for (const auto& file : std::filesystem::directory_iterator(directory))

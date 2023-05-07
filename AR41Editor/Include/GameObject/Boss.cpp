@@ -350,7 +350,7 @@ void CBoss::Save(FILE* file)
 void CBoss::Load(FILE* file)
 {
 	CGameObject::Load(file);
-	int	length = 0;
+	size_t	length = 0;
 	char	typeName[256] = {};
 	fread(&length, 4, 1, file);
 	assert(length >= 0);
